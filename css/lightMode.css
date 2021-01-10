@@ -1,0 +1,74 @@
+body {
+  background: rgb(250, 250, 255);
+}
+
+.guess__container * {
+  border-color: white;
+}
+
+.guess__container {
+  border: none;
+  background: rgb(238,174,202);
+  background: linear-gradient(42deg, hsl(334, 65%, 85%) 0%, hsl(212, 66%, 75%) 100%);
+}
+
+.guess__text {
+  color: white;
+}
+
+.guess__card {
+  background-color: #FAD961;
+  background-image: linear-gradient(135deg, hsl(47, 70%, 75%) 0%, hsl(29, 70%, 80%) 100%);
+
+}
+
+.guess__settings {
+  border-left-width: 2px;
+}
+
+.guess__input-wrap {
+  border-width: 2px;
+}
+
+.guess__input {
+  border-width: 2px;
+}
+
+.guess__input:focus {
+  box-shadow: 0 0 6px 2px white;
+
+}
+
+.guess__btn {
+  border-width: 2px;
+}
+
+.guess__btn:focus {
+  box-shadow: 0 0 6px 2px white;
+  background: none;
+}
+
+.guess__display {
+  border-width: 2px;
+  box-shadow: 0 0 6px 2px white;
+
+}
+
+.guess__indicator {
+  background: linear-gradient(90deg, rgba(121,204,255,0) 0%, hsl(203, 100%, 74%) 10%, hsl(203, 100%, 74%) 90%, rgba(121,204,255,0) 100%);
+}
+
+.switch {
+  border-width: 2px;
+}
+
+.switch__slider {
+  background: white;
+}
+
+
+
+
+
+
+
